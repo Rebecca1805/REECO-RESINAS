@@ -1,0 +1,90 @@
+h1{
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+h2{
+    color: #066633;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    position: left;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to left, #F7EACB, #ff7701);
+    display: flex;
+}
+.box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -42%);
+    background-color: #F7EACB;
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset{
+    border: 3px solid #066633;
+}
+legend{
+    border: 1px solid #066633;
+    padding: 10px;
+    text-align: center;
+    background-color: #066633;
+    border-radius: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    vertical-align: bottom;
+    height: 0,5rem;
+}
+.inputName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.InputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #066633;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.InputNote{
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+}
+#submit{
+    border: 1px solid #066633;
+    padding: 10px;
+    text-align: center; 
+    background-color: #066633;
+    border-radius: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    width: 35%;
+    cursor: pointer;
+    top: 80%;
+    left: 5%;           
+}
+#submit:hover{
+    background-image: linear-gradient(to left, #F7EACB, #066633);
+}
+.img-logo{
+    width: 15%;
+    float: right;
+}
