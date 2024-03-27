@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rebecca Oliveira e Silva">
+    
+    <title>FORMULÁRIO DE PEDIDOS - REECO RESINA</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+    <body>
+        <div class="box">
+            <form action="mailto:valpaa82@outlook.com" method="POST" enctype="text/plain">
+    <fieldset>
+        <legend>
+            <h1 id="titulo">COMPRA E VENDA</h1>
+        </legend>
+        <BR>
+    <div class="inputName">
+        <p>PEDIDO PARA QUAL EMPRESA?
+            <input type="radio" id="passaro" name="Empresa" value="Passaro" class= selectBusiness required checked>
+            <label for="passaro">Pássaro</label>
+            <input type="radio" id="resypar" name="Empresa" value="Resypar" class= selectBusiness required>
+            <label for="resypar">Resypar</label></p>
+    </div>
+<section>    
+    <div>
+        <p><h2>COMPRA</h2></p>
+<table id="Tabela 01">
+    <thead>
+        <tr>
+            <th><h3>Produtor</h3></th> <th><h3>Valor (R$)</h3></th> <th><h3>Prazo (dias)</h3></th> <th><h3>Qtde Tambor</h3></th> <th><h3>NF pendente?</h3></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <select id="Produtor"; name="Produtor">
+                    <option selected disabled value="">Selecione o Produtor</option>
+                    <option>Alexandre Fiorato</option>
+                    <option>Alexandre Gualdani</option>
+                    <option>Alexandre Silva</option>
+                    <option>André Agrovila</option>
+                    <option>Antonio Atair</option>
+                    <option>Archmedes Silva</option>
+                    <option>Batista Campina De Fora</option>
+                    <option>Benedito Almeida</option>
+                    <option>Braim Packer</option>
+                    <option>Carlinhos Monteiro</option>
+                    <option>Carlos Arruda</option>
+                    <option>Carlos Machado</option>
+                    <option>Celso Scaranti</option>
+                    <option>Claudinei Agrovila</option>
+                    <option>Claudinei Aparecido</option>
+                    <option>Claudinei Silva</option>
+                    <option>Daniel De Almeida</option>
+                    <option>Daniel Fogaça</option>
+                    <option>Darci Agrovila</option>
+                    <option>Darci Donizete</option>
+                    <option>Diego Costinha</option>
+                    <option>Diego Marangon</option>
+                    <option>Doraci Vieira</option>
+                    <option>Edison Fabri</option>
+                    <option>Edison Nunes</option>
+                    <option>Edmar</option>
+                    <option>Edmar Delfino</option>
+                    <option>Ednelson Bueno</option>
+                    <option>Eduardo Bueno</option>
+                    <option>Eduardo Gomes</option>
+                    <option>Eduardo Melo</option>
+                    <option>Eduardo Ribeirao</option>
+                    <option>Elcio</option>
+                    <option>Eldorado Florestal</option>
+                    <option>Eleni Guerra</option>
+                    <option>Eliseu De Barros</option>
+                    <option>Elza Oliveira</option>
+                    <option>Eni Garcia</option>
+                    <option>Ezio Fonseca</option>
+                    <option>Fabiano Porto</option>
+                    <option>Felipe Santiago</option>
+                    <option>Fernando Bernardino</option>
+                    <option>Fernando Iaczinski</option>
+                    <option>Francisco Laerte</option>
+                    <option>Geremias</option>
+                    <option>Gilmar Massao</option>
+                    <option>Gilmar Santos</option>
+                    <option>Gilson Silverio</option>
+                    <option>Guilherme Nova Campina</option>
+                    <option>Gustavo Cruz</option>
+                    <option>Heliton Do Valle Jr</option>
+                    <option>Igor Rosa</option>
+                    <option>Ims Serviços</option>
+                    <option>Irineu</option>
+                    <option>Itamar Ferreira</option>
+                    <option>Ivan Camargo</option>
+                    <option>Izauri Medeiros</option>
+                    <option>Jair Lerya</option>
+                    <option>Jair Rosa</option>
+                    <option>Joao Agrovila</option>
+                    <option>Joao Batista Pires</option>
+                    <option>Joao Branco</option>
+                    <option>Joao Francisco</option>
+                    <option>Joao Marçal</option>
+                    <option>Joao Paulo Rosa</option>
+                    <option>Joao Tristao</option>
+                    <option>Joaozinho Ferraz</option>
+                    <option>Joaquim Werneck</option>
+                    <option>Joel Andrade</option>
+                    <option>Joel Vianna</option>
+                    <option>Jones Pontes</option>
+                    <option>Jose Carlos Agrovila</option>
+                    <option>Jose Lara</option>
+                    <option>Jose Maria Fonseca</option>
+                    <option>Jose Vitor Bacetti</option>
+                    <option>Josenalva Agrovila</option>
+                    <option>Jovenil</option>
+                    <option>Juliano Itabera</option>
+                    <option>Juliano Lima</option>
+                    <option>Julio Roveda</option>
+                    <option>Junior Zacharias</option>
+                    <option>Jurandir Bom Sucesso</option>
+                    <option>Kako</option>
+                    <option>Kleyton Balan</option>
+                    <option>Laerte</option>
+                    <option>Luciano Couto</option>
+                    <option>Luciano Knapp</option>
+                    <option>Marcelo De Oliveira</option>
+                    <option>Marcia Silva</option>
+                    <option>Marcio Arruda</option>
+                    <option>Marcio Lopes</option>
+                    <option>Marcio Paulino</option>
+                    <option>Marcos Antonio</option>
+                    <option>Marcos Senges</option>
+                    <option>Maria Dib</option>
+                    <option>Murilo Fonseca</option>
+                    <option>Neceli Aristides</option>
+                    <option>Nei Agrovila</option>
+                    <option>Nelsinho</option>
+                    <option>Nelson Angolini</option>
+                    <option>Nelson Sene</option>
+                    <option>Nilson Santos</option>
+                    <option>Nilson Soares</option>
+                    <option>Olga Stein</option>
+                    <option>Orlando Marcondes</option>
+                    <option>Osnei Barbioti</option>
+                    <option>Paineira</option>
+                    <option>Paulo</option>
+                    <option>Rafael Bacetti</option>
+                    <option>Rafael Fragoso</option>
+                    <option>Rafael Senges</option>
+                    <option>Ramon Araujo</option>
+                    <option>Rivail</option>
+                    <option>Roberto Freitas</option>
+                    <option>Roberto Pedroso</option>
+                    <option>Rodiney Agrovila</option>
+                    <option>Rodrigo Scarassatti</option>
+                    <option>Rogerio</option>
+                    <option>Ronaldo</option>
+                    <option>Ronildo Santos</option>
+                    <option>Rosilda Alves</option>
+                    <option>Rubens Fonseca</option>
+                    <option>Rubens Leite</option>
+                    <option>Samuel Chagas</option>
+                    <option>Saulo Rodrigues</option>
+                    <option>Serraria Paineira</option>
+                    <option>Silmar Stein</option>
+                    <option>Sinesio Rodrigues</option>
+                    <option>Sirlene</option>
+                    <option>Tatiane Buri</option>
+                    <option>Taynara Vianna</option>
+                    <option>Teresino</option>
+                    <option>Thiago Agrovila</option>
+                    <option>Thiago Cardoso</option>
+                    <option>Tiago Sarti Leal</option>
+                    <option>Vagner Correa</option>
+                    <option>Valdir Camargo</option>
+                    <option>Valdivino Pinto</option>
+                    <option>Valdo Leite</option>
+                    <option>Vandir Mendes</option>
+                    <option>Vando Senciatti</option>
+                    <option>Vinicius Agrovila</option>
+                    <option>Virgílio Agrovila</option>
+                    <option>Vitor Bacetti</option>
+                    <option>Vitor Klaussner</option>
+                    <option>Vivian Klaussner</option>
+                    <option>Waldeni Dezenkauskas</option>
+                    <option>Wilian Agrovila</option>
+                    <option>Zema Buri</option>
+                    <option>Zenir Machado</option>
+                    <option>Outro</option>
+            </td>         
+            <td>
+                <input type:"text" name="Valor" value=" ">
+            </td>
+            <td>
+                <input type:"text" name="Prazo" value=" ">
+            </td>
+            <td>
+                <input type:"text" name="Qtde" value=" ">
+            </td>
+            <td>
+                <select id="NF" name="NF">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="Produtor1"; name="Produtor1">
+                    <option selected disabled value="">Selecione o Produtor</option>
+                    <option>Alexandre Fiorato</option>
+                    <option>Alexandre Gualdani</option>
+                    <option>Alexandre Silva</option>
+                    <option>André Agrovila</option>
+                    <option>Antonio Atair</option>
+                    <option>Archmedes Silva</option>
+                    <option>Batista Campina De Fora</option>
+                    <option>Benedito Almeida</option>
+                    <option>Braim Packer</option>
+                    <option>Carlinhos Monteiro</option>
+                    <option>Carlos Arruda</option>
+                    <option>Carlos Machado</option>
+                    <option>Celso Scaranti</option>
+                    <option>Claudinei Agrovila</option>
+                    <option>Claudinei Aparecido</option>
+                    <option>Claudinei Silva</option>
+                    <option>Daniel De Almeida</option>
+                    <option>Daniel Fogaça</option>
+                    <option>Darci Agrovila</option>
+                    <option>Darci Donizete</option>
+                    <option>Diego Costinha</option>
+                    <option>Diego Marangon</option>
+                    <option>Doraci Vieira</option>
+                    <option>Edison Fabri</option>
+                    <option>Edison Nunes</option>
+                    <option>Edmar</option>
+                    <option>Edmar Delfino</option>
+                    <option>Ednelson Bueno</option>
+                    <option>Eduardo Bueno</option>
+                    <option>Eduardo Gomes</option>
+                    <option>Eduardo Melo</option>
+                    <option>Eduardo Ribeirao</option>
+                    <option>Elcio</option>
+                    <option>Eldorado Florestal</option>
+                    <option>Eleni Guerra</option>
+                    <option>Eliseu De Barros</option>
+                    <option>Elza Oliveira</option>
+                    <option>Eni Garcia</option>
+                    <option>Ezio Fonseca</option>
+                    <option>Fabiano Porto</option>
+                    <option>Felipe Santiago</option>
+                    <option>Fernando Bernardino</option>
+                    <option>Fernando Iaczinski</option>
+                    <option>Francisco Laerte</option>
+                    <option>Geremias</option>
+                    <option>Gilmar Massao</option>
+                    <option>Gilmar Santos</option>
+                    <option>Gilson Silverio</option>
+                    <option>Guilherme Nova Campina</option>
+                    <option>Gustavo Cruz</option>
+                    <option>Heliton Do Valle Jr</option>
+                    <option>Igor Rosa</option>
+                    <option>Ims Serviços</option>
+                    <option>Irineu</option>
+                    <option>Itamar Ferreira</option>
+                    <option>Ivan Camargo</option>
+                    <option>Izauri Medeiros</option>
+                    <option>Jair Lerya</option>
+                    <option>Jair Rosa</option>
+                    <option>Joao Agrovila</option>
+                    <option>Joao Batista Pires</option>
+                    <option>Joao Branco</option>
+                    <option>Joao Francisco</option>
+                    <option>Joao Marçal</option>
+                    <option>Joao Paulo Rosa</option>
+                    <option>Joao Tristao</option>
+                    <option>Joaozinho Ferraz</option>
+                    <option>Joaquim Werneck</option>
+                    <option>Joel Andrade</option>
+                    <option>Joel Vianna</option>
+                    <option>Jones Pontes</option>
+                    <option>Jose Carlos Agrovila</option>
+                    <option>Jose Lara</option>
+                    <option>Jose Maria Fonseca</option>
+                    <option>Jose Vitor Bacetti</option>
+                    <option>Josenalva Agrovila</option>
+                    <option>Jovenil</option>
+                    <option>Juliano Itabera</option>
+                    <option>Juliano Lima</option>
+                    <option>Julio Roveda</option>
+                    <option>Junior Zacharias</option>
+                    <option>Jurandir Bom Sucesso</option>
+                    <option>Kako</option>
+                    <option>Kleyton Balan</option>
+                    <option>Laerte</option>
+                    <option>Luciano Couto</option>
+                    <option>Luciano Knapp</option>
+                    <option>Marcelo De Oliveira</option>
+                    <option>Marcia Silva</option>
+                    <option>Marcio Arruda</option>
+                    <option>Marcio Lopes</option>
+                    <option>Marcio Paulino</option>
+                    <option>Marcos Antonio</option>
+                    <option>Marcos Senges</option>
+                    <option>Maria Dib</option>
+                    <option>Murilo Fonseca</option>
+                    <option>Neceli Aristides</option>
+                    <option>Nei Agrovila</option>
+                    <option>Nelsinho</option>
+                    <option>Nelson Angolini</option>
+                    <option>Nelson Sene</option>
+                    <option>Nilson Santos</option>
+                    <option>Nilson Soares</option>
+                    <option>Olga Stein</option>
+                    <option>Orlando Marcondes</option>
+                    <option>Osnei Barbioti</option>
+                    <option>Paineira</option>
+                    <option>Paulo</option>
+                    <option>Rafael Bacetti</option>
+                    <option>Rafael Fragoso</option>
+                    <option>Rafael Senges</option>
+                    <option>Ramon Araujo</option>
+                    <option>Rivail</option>
+                    <option>Roberto Freitas</option>
+                    <option>Roberto Pedroso</option>
+                    <option>Rodiney Agrovila</option>
+                    <option>Rodrigo Scarassatti</option>
+                    <option>Rogerio</option>
+                    <option>Ronaldo</option>
+                    <option>Ronildo Santos</option>
+                    <option>Rosilda Alves</option>
+                    <option>Rubens Fonseca</option>
+                    <option>Rubens Leite</option>
+                    <option>Samuel Chagas</option>
+                    <option>Saulo Rodrigues</option>
+                    <option>Serraria Paineira</option>
+                    <option>Silmar Stein</option>
+                    <option>Sinesio Rodrigues</option>
+                    <option>Sirlene</option>
+                    <option>Tatiane Buri</option>
+                    <option>Taynara Vianna</option>
+                    <option>Teresino</option>
+                    <option>Thiago Agrovila</option>
+                    <option>Thiago Cardoso</option>
+                    <option>Tiago Sarti Leal</option>
+                    <option>Vagner Correa</option>
+                    <option>Valdir Camargo</option>
+                    <option>Valdivino Pinto</option>
+                    <option>Valdo Leite</option>
+                    <option>Vandir Mendes</option>
+                    <option>Vando Senciatti</option>
+                    <option>Vinicius Agrovila</option>
+                    <option>Virgílio Agrovila</option>
+                    <option>Vitor Bacetti</option>
+                    <option>Vitor Klaussner</option>
+                    <option>Vivian Klaussner</option>
+                    <option>Waldeni Dezenkauskas</option>
+                    <option>Wilian Agrovila</option>
+                    <option>Zema Buri</option>
+                    <option>Zenir Machado</option>
+                    <option>Outro</option>
+            </td>         
+            <td>
+                <input type:"text" id="Valor1" name="Valor1" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Prazo1" name="Prazo1" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Qtde1" name="Qtde1" value=" ">
+            </td>
+            <td>
+                <select id="NF1" name="NF1">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="Produtor"; name="Produtor2">
+                    <option selected disabled value="">Selecione o Produtor</option>
+                    <option>Alexandre Fiorato</option>
+                    <option>Alexandre Gualdani</option>
+                    <option>Alexandre Silva</option>
+                    <option>André Agrovila</option>
+                    <option>Antonio Atair</option>
+                    <option>Archmedes Silva</option>
+                    <option>Batista Campina De Fora</option>
+                    <option>Benedito Almeida</option>
+                    <option>Braim Packer</option>
+                    <option>Carlinhos Monteiro</option>
+                    <option>Carlos Arruda</option>
+                    <option>Carlos Machado</option>
+                    <option>Celso Scaranti</option>
+                    <option>Claudinei Agrovila</option>
+                    <option>Claudinei Aparecido</option>
+                    <option>Claudinei Silva</option>
+                    <option>Daniel De Almeida</option>
+                    <option>Daniel Fogaça</option>
+                    <option>Darci Agrovila</option>
+                    <option>Darci Donizete</option>
+                    <option>Diego Costinha</option>
+                    <option>Diego Marangon</option>
+                    <option>Doraci Vieira</option>
+                    <option>Edison Fabri</option>
+                    <option>Edison Nunes</option>
+                    <option>Edmar</option>
+                    <option>Edmar Delfino</option>
+                    <option>Ednelson Bueno</option>
+                    <option>Eduardo Bueno</option>
+                    <option>Eduardo Gomes</option>
+                    <option>Eduardo Melo</option>
+                    <option>Eduardo Ribeirao</option>
+                    <option>Elcio</option>
+                    <option>Eldorado Florestal</option>
+                    <option>Eleni Guerra</option>
+                    <option>Eliseu De Barros</option>
+                    <option>Elza Oliveira</option>
+                    <option>Eni Garcia</option>
+                    <option>Ezio Fonseca</option>
+                    <option>Fabiano Porto</option>
+                    <option>Felipe Santiago</option>
+                    <option>Fernando Bernardino</option>
+                    <option>Fernando Iaczinski</option>
+                    <option>Francisco Laerte</option>
+                    <option>Geremias</option>
+                    <option>Gilmar Massao</option>
+                    <option>Gilmar Santos</option>
+                    <option>Gilson Silverio</option>
+                    <option>Guilherme Nova Campina</option>
+                    <option>Gustavo Cruz</option>
+                    <option>Heliton Do Valle Jr</option>
+                    <option>Igor Rosa</option>
+                    <option>Ims Serviços</option>
+                    <option>Irineu</option>
+                    <option>Itamar Ferreira</option>
+                    <option>Ivan Camargo</option>
+                    <option>Izauri Medeiros</option>
+                    <option>Jair Lerya</option>
+                    <option>Jair Rosa</option>
+                    <option>Joao Agrovila</option>
+                    <option>Joao Batista Pires</option>
+                    <option>Joao Branco</option>
+                    <option>Joao Francisco</option>
+                    <option>Joao Marçal</option>
+                    <option>Joao Paulo Rosa</option>
+                    <option>Joao Tristao</option>
+                    <option>Joaozinho Ferraz</option>
+                    <option>Joaquim Werneck</option>
+                    <option>Joel Andrade</option>
+                    <option>Joel Vianna</option>
+                    <option>Jones Pontes</option>
+                    <option>Jose Carlos Agrovila</option>
+                    <option>Jose Lara</option>
+                    <option>Jose Maria Fonseca</option>
+                    <option>Jose Vitor Bacetti</option>
+                    <option>Josenalva Agrovila</option>
+                    <option>Jovenil</option>
+                    <option>Juliano Itabera</option>
+                    <option>Juliano Lima</option>
+                    <option>Julio Roveda</option>
+                    <option>Junior Zacharias</option>
+                    <option>Jurandir Bom Sucesso</option>
+                    <option>Kako</option>
+                    <option>Kleyton Balan</option>
+                    <option>Laerte</option>
+                    <option>Luciano Couto</option>
+                    <option>Luciano Knapp</option>
+                    <option>Marcelo De Oliveira</option>
+                    <option>Marcia Silva</option>
+                    <option>Marcio Arruda</option>
+                    <option>Marcio Lopes</option>
+                    <option>Marcio Paulino</option>
+                    <option>Marcos Antonio</option>
+                    <option>Marcos Senges</option>
+                    <option>Maria Dib</option>
+                    <option>Murilo Fonseca</option>
+                    <option>Neceli Aristides</option>
+                    <option>Nei Agrovila</option>
+                    <option>Nelsinho</option>
+                    <option>Nelson Angolini</option>
+                    <option>Nelson Sene</option>
+                    <option>Nilson Santos</option>
+                    <option>Nilson Soares</option>
+                    <option>Olga Stein</option>
+                    <option>Orlando Marcondes</option>
+                    <option>Osnei Barbioti</option>
+                    <option>Paineira</option>
+                    <option>Paulo</option>
+                    <option>Rafael Bacetti</option>
+                    <option>Rafael Fragoso</option>
+                    <option>Rafael Senges</option>
+                    <option>Ramon Araujo</option>
+                    <option>Rivail</option>
+                    <option>Roberto Freitas</option>
+                    <option>Roberto Pedroso</option>
+                    <option>Rodiney Agrovila</option>
+                    <option>Rodrigo Scarassatti</option>
+                    <option>Rogerio</option>
+                    <option>Ronaldo</option>
+                    <option>Ronildo Santos</option>
+                    <option>Rosilda Alves</option>
+                    <option>Rubens Fonseca</option>
+                    <option>Rubens Leite</option>
+                    <option>Samuel Chagas</option>
+                    <option>Saulo Rodrigues</option>
+                    <option>Serraria Paineira</option>
+                    <option>Silmar Stein</option>
+                    <option>Sinesio Rodrigues</option>
+                    <option>Sirlene</option>
+                    <option>Tatiane Buri</option>
+                    <option>Taynara Vianna</option>
+                    <option>Teresino</option>
+                    <option>Thiago Agrovila</option>
+                    <option>Thiago Cardoso</option>
+                    <option>Tiago Sarti Leal</option>
+                    <option>Vagner Correa</option>
+                    <option>Valdir Camargo</option>
+                    <option>Valdivino Pinto</option>
+                    <option>Valdo Leite</option>
+                    <option>Vandir Mendes</option>
+                    <option>Vando Senciatti</option>
+                    <option>Vinicius Agrovila</option>
+                    <option>Virgílio Agrovila</option>
+                    <option>Vitor Bacetti</option>
+                    <option>Vitor Klaussner</option>
+                    <option>Vivian Klaussner</option>
+                    <option>Waldeni Dezenkauskas</option>
+                    <option>Wilian Agrovila</option>
+                    <option>Zema Buri</option>
+                    <option>Zenir Machado</option>
+                    <option>Outro</option>
+            </td>         
+            <td>
+                <input type:"text" id="Valor2" name="Valor2" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Prazo2" name="Prazo2" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Qtde2" name="Qtde2" value=" ">
+            </td>
+            <td>
+                <select id="NF2" name="NF2">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="Produtor"; name="Produtor3">
+                    <option selected disabled value="">Selecione o Produtor</option>
+                    <option>Alexandre Fiorato</option>
+                    <option>Alexandre Gualdani</option>
+                    <option>Alexandre Silva</option>
+                    <option>André Agrovila</option>
+                    <option>Antonio Atair</option>
+                    <option>Archmedes Silva</option>
+                    <option>Batista Campina De Fora</option>
+                    <option>Benedito Almeida</option>
+                    <option>Braim Packer</option>
+                    <option>Carlinhos Monteiro</option>
+                    <option>Carlos Arruda</option>
+                    <option>Carlos Machado</option>
+                    <option>Celso Scaranti</option>
+                    <option>Claudinei Agrovila</option>
+                    <option>Claudinei Aparecido</option>
+                    <option>Claudinei Silva</option>
+                    <option>Daniel De Almeida</option>
+                    <option>Daniel Fogaça</option>
+                    <option>Darci Agrovila</option>
+                    <option>Darci Donizete</option>
+                    <option>Diego Costinha</option>
+                    <option>Diego Marangon</option>
+                    <option>Doraci Vieira</option>
+                    <option>Edison Fabri</option>
+                    <option>Edison Nunes</option>
+                    <option>Edmar</option>
+                    <option>Edmar Delfino</option>
+                    <option>Ednelson Bueno</option>
+                    <option>Eduardo Bueno</option>
+                    <option>Eduardo Gomes</option>
+                    <option>Eduardo Melo</option>
+                    <option>Eduardo Ribeirao</option>
+                    <option>Elcio</option>
+                    <option>Eldorado Florestal</option>
+                    <option>Eleni Guerra</option>
+                    <option>Eliseu De Barros</option>
+                    <option>Elza Oliveira</option>
+                    <option>Eni Garcia</option>
+                    <option>Ezio Fonseca</option>
+                    <option>Fabiano Porto</option>
+                    <option>Felipe Santiago</option>
+                    <option>Fernando Bernardino</option>
+                    <option>Fernando Iaczinski</option>
+                    <option>Francisco Laerte</option>
+                    <option>Geremias</option>
+                    <option>Gilmar Massao</option>
+                    <option>Gilmar Santos</option>
+                    <option>Gilson Silverio</option>
+                    <option>Guilherme Nova Campina</option>
+                    <option>Gustavo Cruz</option>
+                    <option>Heliton Do Valle Jr</option>
+                    <option>Igor Rosa</option>
+                    <option>Ims Serviços</option>
+                    <option>Irineu</option>
+                    <option>Itamar Ferreira</option>
+                    <option>Ivan Camargo</option>
+                    <option>Izauri Medeiros</option>
+                    <option>Jair Lerya</option>
+                    <option>Jair Rosa</option>
+                    <option>Joao Agrovila</option>
+                    <option>Joao Batista Pires</option>
+                    <option>Joao Branco</option>
+                    <option>Joao Francisco</option>
+                    <option>Joao Marçal</option>
+                    <option>Joao Paulo Rosa</option>
+                    <option>Joao Tristao</option>
+                    <option>Joaozinho Ferraz</option>
+                    <option>Joaquim Werneck</option>
+                    <option>Joel Andrade</option>
+                    <option>Joel Vianna</option>
+                    <option>Jones Pontes</option>
+                    <option>Jose Carlos Agrovila</option>
+                    <option>Jose Lara</option>
+                    <option>Jose Maria Fonseca</option>
+                    <option>Jose Vitor Bacetti</option>
+                    <option>Josenalva Agrovila</option>
+                    <option>Jovenil</option>
+                    <option>Juliano Itabera</option>
+                    <option>Juliano Lima</option>
+                    <option>Julio Roveda</option>
+                    <option>Junior Zacharias</option>
+                    <option>Jurandir Bom Sucesso</option>
+                    <option>Kako</option>
+                    <option>Kleyton Balan</option>
+                    <option>Laerte</option>
+                    <option>Luciano Couto</option>
+                    <option>Luciano Knapp</option>
+                    <option>Marcelo De Oliveira</option>
+                    <option>Marcia Silva</option>
+                    <option>Marcio Arruda</option>
+                    <option>Marcio Lopes</option>
+                    <option>Marcio Paulino</option>
+                    <option>Marcos Antonio</option>
+                    <option>Marcos Senges</option>
+                    <option>Maria Dib</option>
+                    <option>Murilo Fonseca</option>
+                    <option>Neceli Aristides</option>
+                    <option>Nei Agrovila</option>
+                    <option>Nelsinho</option>
+                    <option>Nelson Angolini</option>
+                    <option>Nelson Sene</option>
+                    <option>Nilson Santos</option>
+                    <option>Nilson Soares</option>
+                    <option>Olga Stein</option>
+                    <option>Orlando Marcondes</option>
+                    <option>Osnei Barbioti</option>
+                    <option>Paineira</option>
+                    <option>Paulo</option>
+                    <option>Rafael Bacetti</option>
+                    <option>Rafael Fragoso</option>
+                    <option>Rafael Senges</option>
+                    <option>Ramon Araujo</option>
+                    <option>Rivail</option>
+                    <option>Roberto Freitas</option>
+                    <option>Roberto Pedroso</option>
+                    <option>Rodiney Agrovila</option>
+                    <option>Rodrigo Scarassatti</option>
+                    <option>Rogerio</option>
+                    <option>Ronaldo</option>
+                    <option>Ronildo Santos</option>
+                    <option>Rosilda Alves</option>
+                    <option>Rubens Fonseca</option>
+                    <option>Rubens Leite</option>
+                    <option>Samuel Chagas</option>
+                    <option>Saulo Rodrigues</option>
+                    <option>Serraria Paineira</option>
+                    <option>Silmar Stein</option>
+                    <option>Sinesio Rodrigues</option>
+                    <option>Sirlene</option>
+                    <option>Tatiane Buri</option>
+                    <option>Taynara Vianna</option>
+                    <option>Teresino</option>
+                    <option>Thiago Agrovila</option>
+                    <option>Thiago Cardoso</option>
+                    <option>Tiago Sarti Leal</option>
+                    <option>Vagner Correa</option>
+                    <option>Valdir Camargo</option>
+                    <option>Valdivino Pinto</option>
+                    <option>Valdo Leite</option>
+                    <option>Vandir Mendes</option>
+                    <option>Vando Senciatti</option>
+                    <option>Vinicius Agrovila</option>
+                    <option>Virgílio Agrovila</option>
+                    <option>Vitor Bacetti</option>
+                    <option>Vitor Klaussner</option>
+                    <option>Vivian Klaussner</option>
+                    <option>Waldeni Dezenkauskas</option>
+                    <option>Wilian Agrovila</option>
+                    <option>Zema Buri</option>
+                    <option>Zenir Machado</option>
+                    <option>Outro</option>
+            </td>         
+            <td>
+                <input type:"text" id="Valor3" name="Valor3" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Prazo3" name="Prazo3" value=" ">
+            </td>
+            <td>
+                <input type:"text" id="Qtde3" name="Qtde3" value=" ">
+            </td>
+            <td>
+                <select id="NF3" name="NF3">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+            </td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+</section>
+<section>
+<div>
+    <br>
+     <label><h2>VENDA</h2></label>
+<table id="Tabela 02">
+    <thead>
+        <tr>
+            <th><h3>Cliente</h3></th> <th><h3>Qtde Tambor</h3></th> <th><h3> Emitir Boleto?</h3></th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><select id="Cliente" name="Cliente">
+            <option selected disabled value="">Selecione a Empresa</option>
+            <option>BR RESINAS</option>
+            <option>CAMPINUS</option>
+            <option>DRM</option>
+            <option>ENOVA</option>
+            <option>FLORPINUS</option>
+            <option>FLORPINUS CAMPO LARGO</option>
+            <option>HARIMA</option>
+            <option>IRN</option>
+            <option>JOAQUIM</option>
+            <option>MARANGON - BURI</option>
+            <option>MENEGHEL</option>
+            <option>MENEGHEL HARIMA</option>
+            <option>PINUS BRASIL</option>
+            <option>POLEZE</option>
+            <option>RESINAS BRASIL</option>
+            <option>RESYPAR</option>
+            <option>RODRIGO FLORPINUS</option>
+            <option>RODRIGO PINUS</option>
+            <option>RYCAM</option></td>
+            <td><input type:"text" id="Qtde4" name="Qtde4" value=" "></td>
+            <td><select id="Boleto" name="Boleto">
+                <option selected disabled value="">Selecione</option>
+                <option>Sim</option>
+                <option>Não</option></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</section>
+<section>
+<div>
+    <label><h2>FRETE</h2></label>
+    <table id="Tabela 03">
+        <thead> 
+            <th><h3>Placa Caminhão</h3></th> <th><h3>Motorista</h3></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type:"text" name="Placa" value=" "></td>
+                <td><input type:"text" name="Nome" value=" "></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div class="InputNote">
+        <label for="observação">Observação</label>
+        <input type="text" name="observacao" id="observacao" placeholder="Digite suas observações" class="InputUser">
+    </div>
+</div>
+</section>
+<br>
+</fieldset>
+<br>
+        <input type="submit" value="Enviar" name="submit" id="submit">
+        <img src="imagens/logo-original-horizontal.png" class="img-logo" alt="logo reeco original horizontal">
+    </body>
+</form>
+</html>
